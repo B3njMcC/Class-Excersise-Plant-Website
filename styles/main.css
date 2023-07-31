@@ -45,6 +45,13 @@ button {
     color:#18382B;
 }
 
+.accordion-header{
+    background-color: aquamarine;
+}
+button, .accordion-button{
+    background-color: aquamarine;
+}
+
 /* Navigation */
 
 .nav-link {
@@ -115,4 +122,24 @@ button {
     height: 90vh; 
     position: relative;
     bottom: -100px;
+}
+/* ---------------------------------------------------------------- */
+/* Image backgrounds */
+
+.image{
+    background-image: url(/assets/Slide\ 2\ Plant\ Image.png);
+    width: 500px;
+    height: 500px;
+    border-radius: 5vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5vh ;
+    background-color: #18382B;
+}
+
+/* ---------------------------------------------------------------- */
+/* Table override */
+
+.table{
+    margin-top: 20vh;
 }
