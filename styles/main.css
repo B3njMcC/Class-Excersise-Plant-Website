@@ -141,5 +141,10 @@ button, .accordion-button{
 /* Table override */
 
 .table{
-    margin-top: 20vh;
+    margin-top: 10vh;
+}
+
+#minusButton{
+    font-size: 50px;
+    margin-left: 5vh;
 }

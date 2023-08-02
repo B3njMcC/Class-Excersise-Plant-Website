@@ -37,35 +37,28 @@
 
       </div>
     </nav>
-    <div class="container">
+
+    <!-- Button -->
+
+    <!-- Table -->
+    <div class="container" >
       <div class="row">
-    <table class="table">
+    <table class="table" id="tableContainer">
       <thead>
         <tr>
-          <th scope="col">Name</th>
-          <th scope="col">Email</th>
-          <th scope="col">Product</th>
-          <th scope="col">Price</th>
+          <th scope="col" >Image</th>
+          <th scope="col" >Name</th>
+          <th scope="col">Remove Item</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+        <template id="plantRowTemplate">
+        <tr id="tableRow">
+          <th scope="row" id="plantImage"><img src="assets/plant1.png"></th>
+          <td id="plantName">Mark</td>
+          <td><button id="minusButton">-</button></td>
         </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
+      </template>
       </tbody>
     </table>
   </div>
